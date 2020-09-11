@@ -23,7 +23,7 @@ sudo apt-get install -y libzmq3-dev
 You can use the following command:
 
 ```bash
-cp CSP_ARDUINO/ arduino-1.8.13/hardware/arduino/avr/libraries
+cp CSP_ARDUINO/ /home/user/arduino-1.8.13/hardware/arduino/avr/libraries
 ```
 
 ##### Note: The arduino folder could change with the Arduino version installed.
