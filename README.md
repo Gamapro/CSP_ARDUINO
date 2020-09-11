@@ -30,7 +30,22 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## Original Project
+# Original Project
 
 [CSP_LIBRARY](https://github.com/libcsp/libcsp)
+
+Configure the Original Library
+
+#### Configure FreeRTOS
+
+```bash
+./waf configure --install-csp --jobs=1 -o build_freertos -p --enable-rdp --enable-crc32 --enable-can-socketcan --enable-examples --with-os=freertos
+```
+
+#### Configure Linux(Posix)
+
+```bash
+./examples/buildall.py
+```
+
 
