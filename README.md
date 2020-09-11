@@ -25,18 +25,6 @@ After this, you can import the csp.h library in your Arduino file.
 gcc prueba.c -o prueba -I include/ -I build/include/  build/libcsp.so build/libcsp.a -pthread
 ```
 
-## Configure FreeRTOS
-
-```bash
-./waf configure --install-csp --jobs=1 -o build_freertos -p --enable-rdp --enable-crc32 --enable-can-socketcan --enable-examples --with-os=freertos
-```
-
-## Configure Linux(Posix)
-
-```bash
-./examples/buildall.py
-```
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
