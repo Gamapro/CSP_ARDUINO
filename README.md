@@ -15,7 +15,18 @@ sudo apt-get install libsocketcan-dev
 sudo apt-get install -y libzmq3-dev
 ```
 
-Copy the "CSP_ARDUINO" folder to the Arduino folder, with the path arduino/hardware/arduino/avr/libraries
+1.- Download the CSP_ARDUINO.zip
+
+2.- Go to the Downloads folder, and unzip the CSP_ARDUINO.zip 
+
+3.- Copy the "CSP_ARDUINO" folder to the Arduino folder, with the path arduino/hardware/arduino/avr/libraries
+You can use the following command:
+
+```bash
+cp CSP_ARDUINO/ arduino-1.8.13/hardware/arduino/avr/libraries
+```
+
+##### Note: The arduino folder could change with the Arduino version installed.
 
 After this, you can import the csp.h library in your Arduino file.
 
