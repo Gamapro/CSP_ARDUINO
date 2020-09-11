@@ -8,10 +8,10 @@ Some stuff needed to the instalation
 
 ```bash
 sudo apt-get update
-sudo apt_get install gcc
-sudo apt_get install python3
-sudo apt-get install python-is-python3
-sudo apt-get install libsocketcan-dev
+sudo apt_get install -y gcc
+sudo apt_get install -y python3
+sudo apt-get install -y python-is-python3
+sudo apt-get install -y libsocketcan-dev
 sudo apt-get install -y libzmq3-dev
 ```
 
